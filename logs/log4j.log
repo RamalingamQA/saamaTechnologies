@@ -3,3 +3,7 @@
 23:55:34.533 {main} INFO  - Browser is launched
 11:31:22.380 {main} INFO  - Browser is launched
 11:34:18.512 {main} INFO  - Browser is launched
+20:21:22.423 {main} INFO  - Browser is launched
+20:34:22.625 {main} INFO  - Browser is launched
+20:35:12.134 {main} DEBUG - suiteXmlPath: "E:\D drive\Saama\selenium\cucumberTestNG.xml"
+20:35:16.584 {main} INFO  - Browser is launched
