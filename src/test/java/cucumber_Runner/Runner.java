@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 
-@CucumberOptions(tags="",features={"src\\test\\resources\\features\\dropdown.feature"},glue= {"cucumber_stepDefinition"},plugin= {"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","html:target/htmlreport.html"})
+@CucumberOptions(tags="",features={"src\\test\\resources\\features\\ValidateDropdownElements_DataTable.feature"},glue= {"cucumber_stepDefinition"},plugin= {"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","html:target/htmlreport.html"})
 
 public class Runner extends AbstractTestNGCucumberTests {
 	
