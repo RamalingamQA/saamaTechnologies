@@ -14,8 +14,7 @@ public class webTable {
 
 	@Then("the user validates book price")
 	public void total_price()  {
-		int totalCost=ex.totalPrice();
-		System.out.println(totalCost);
+		ex.totalPrice();	
 	}
 	
 	

@@ -24,24 +24,30 @@ public class RegistrationPage extends BasePage{
 	
 	
 	
-	public void firstNametxt(String firstName) {
-		this.firstName.sendKeys(firstName);
+	public void firstNametxt(String fName) {
+		firstName.clear();
+		firstName.sendKeys(fName);
 	}
-	public void lastNametxt(String lastName) {
-		this.lastName.sendKeys(lastName);
+	public void lastNametxt(String lName) {
+		lastName.clear();
+		lastName.sendKeys(lName);
 	}
 	public void emailtxt(String email) {
+		eMail.clear();
 		eMail.sendKeys(email);
 		
 	}
 	public void telePhonetxt(String phoneNumber) {
+		telePhone.clear();
 		telePhone.sendKeys(phoneNumber);
 	}
-	public void passWordtxt(String password) {
-		this.password.sendKeys(password);
+	public void passWordtxt(String pass) {
+		password.clear();
+		password.sendKeys(pass);
 	}
-	public void confirmPasswordtxt(String confirmPassword) {
-		this.confirmPassword.sendKeys(confirmPassword);
+	public void confirmPasswordtxt(String confirmPass) {
+		confirmPassword.clear();
+		confirmPassword.sendKeys(confirmPass);
 	}
 	public void agreeBtn() {
 		agree.click();
