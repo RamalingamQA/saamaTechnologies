@@ -26,5 +26,4 @@ public class HomePage extends BasePage{
 	public void loginBtn() {
 		login.click();
 	}
-	
 }

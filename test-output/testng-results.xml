@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-09T00:03:40 IST" name="Default suite" finished-at="2025-01-09T00:03:49 IST" duration-ms="9555">
+  <suite started-at="2025-03-05T14:53:26 IST" name="Default suite" finished-at="2025-03-05T14:53:38 IST" duration-ms="12133">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Runner.Runner@4c371370]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-01-09T00:03:40 IST" name="Default test" finished-at="2025-01-09T00:03:49 IST" duration-ms="9555">
+    <test started-at="2025-03-05T14:53:26 IST" name="Default test" finished-at="2025-03-05T14:53:38 IST" duration-ms="12133">
       <class name="cucumber_Runner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber_Runner.Runner@4c371370]" started-at="2025-01-09T00:03:40 IST" name="setUpClass" finished-at="2025-01-09T00:03:42 IST" duration-ms="2331" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber_Runner.Runner@4c371370]" started-at="2025-03-05T14:53:26 IST" name="setUpClass" finished-at="2025-03-05T14:53:28 IST" duration-ms="2172" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7c281eb8]]>
+                <![CDATA[org.testng.TestRunner@630bf683]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Runner.Runner@4c371370]" started-at="2025-01-09T00:03:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-09T00:03:49 IST" duration-ms="7115" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Runner.Runner@4c371370]" started-at="2025-03-05T14:53:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-05T14:53:38 IST" duration-ms="9869" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,26 +30,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Registration Page"]]>
+                <![CDATA["Login page"]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[United Kingd: Not present in the contry dropdown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: United Kingd: Not present in the contry dropdown
-at org.testng.Assert.fail(Assert.java:99)
-at cucumber_stepDefinition.dropdown.validateDropdownOptions(dropdown.java:35)
-at ✽.the validates all the elemets present inside dropdown(file:///E:/D%20drive/Saama/selenium/src/test/resources/features/ValidateDropdownElements_DataTable.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber_Runner.Runner@4c371370]" started-at="2025-01-09T00:03:49 IST" name="tearDownClass" finished-at="2025-01-09T00:03:49 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber_Runner.Runner@4c371370]" started-at="2025-03-05T14:53:38 IST" name="tearDownClass" finished-at="2025-03-05T14:53:38 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

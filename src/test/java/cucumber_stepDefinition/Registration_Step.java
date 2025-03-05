@@ -29,7 +29,9 @@ public class Registration_Step {
 	@Given("the user fills all the required fields in Registations page and registers it")
 	public void dataTable_RegistrationPage(DataTable dataTable) throws InterruptedException {
 	List<Map<String, String>> userList=dataTable.asMaps(String.class,String.class);
+	//
 	int totNewUsers=userList.size();
+	
 	for(int i=0;i<totNewUsers;i++) {
 		String fname=userList.get(i).get("firstName");
 		rp.firstNametxt(fname);

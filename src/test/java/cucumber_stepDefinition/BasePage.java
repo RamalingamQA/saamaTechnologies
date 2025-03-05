@@ -35,7 +35,7 @@ public class BasePage {
 		FileReader file= new FileReader("./src//test//resources//config.properties");
 		p=new Properties();
 		p.load(file);
-		String appUrl=p.getProperty("appURL2");
+		String appUrl=p.getProperty("appURL1");
 		String browser=p.getProperty("browser");
 		switch(browser) {
 		case "chrome": driver=new ChromeDriver();break;
